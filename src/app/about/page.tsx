@@ -311,7 +311,7 @@ export default function About() {
                     </Column>
                     {project.images.length > 0 && (
                       <Flex fillWidth paddingTop="m" paddingLeft="40" wrap>
-                        {project.images.map((image, i) => (
+                        {project.images.map((image: any, i: number) => (
                           <Flex
                             key={i}
                             border="neutral-medium"
@@ -355,7 +355,7 @@ export default function About() {
                     </Text>
                     {skill.images && skill.images.length > 0 && (
                       <Flex fillWidth paddingTop="m" gap="12" wrap>
-                        {skill.images.map((image, index) => (
+                        {skill.images.map((image: any, index: number) => (
                           <Flex
                             key={index}
                             border="neutral-medium"
