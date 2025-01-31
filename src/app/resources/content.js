@@ -55,7 +55,7 @@ const home = {
   headline: <> Firas Abdelgadir</>,
   subline: (
     <>
-      I'm a computer technician and a senior Cyber security undergrad student at <InlineCode>Frostburg State university</InlineCode>, where I serve as president
+      I'm a computer technician and a senior Cybersecurity undergrad student at <InlineCode>Frostburg State university</InlineCode>, where I serve as president
       <br /> of the cyber security club and a D2 athlete on the soccer team. Check out my project articles: <a href="https://medium.com/me/stories/public" target="_blank" rel="noopener noreferrer">projects</a>
 
     </>
