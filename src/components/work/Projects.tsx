@@ -23,7 +23,7 @@ export function Projects({ range }: ProjectsProps) {
         <ProjectCard
           priority={index < 2}
           key={post.slug}
-          href={post.metadata.externalLink}
+          href={post.metadata.externalLink || "" }
           images={post.metadata.images}
           title={post.metadata.title}
           description={post.metadata.summary}
