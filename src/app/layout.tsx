@@ -24,6 +24,14 @@ export async function generateMetadata() {
       siteName: `${person.firstName}'s Portfolio`,
       locale: "en_US",
       type: "website",
+      images: [
+        {
+          url: `https://${baseURL}/IMG_6831.jpg`, // Make sure this image exists in `public/`
+          width: 1200,
+          height: 630,
+          alt: "Firas Abdelgadir Portfolio",
+        }
+      ]
     },
     robots: {
       index: true,
