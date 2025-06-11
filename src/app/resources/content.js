@@ -55,8 +55,8 @@ const home = {
   headline: <> Firas Abdelgadir</>,
   subline: (
     <>
-      I'm a Cyber Threat Hunter and an entrepreneur seeking IT & cybersecurity roles in the Dc metro area. I recently graduated with a B.S. in Cybersecurity and Information Assurance from <InlineCode>Frostburg State university</InlineCode>, where I served as president
-      <br /> of the cyber security club and a D2 athlete on the soccer team. I currently hold an active TS/SCI with a comptia Security + certification.
+      I'm a Cyber Threat Hunter and an Entrepreneur seeking IT & cybersecurity roles in the DC metro area. I recently graduated with a B.S. in Cybersecurity and Information Assurance from <InlineCode>Frostburg State university</InlineCode>, where I served as president
+      <br /> of the cyber security club and a D2 athlete on the soccer team. I hold an active TS/SCI with a comptia Security + certification.
 
     </>
   ),
