@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Cyber Security Student",
+  role: "Cyber Threat Hunter | Entrepreneur",
   avatar: "/images/IMG_6831.jpg",
   //location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Arabic"], // optional: Leave the array empty if you don't want to display languages
@@ -55,8 +55,8 @@ const home = {
   headline: <> Firas Abdelgadir</>,
   subline: (
     <>
-      I'm a computer technician and a senior Cybersecurity undergrad student at <InlineCode>Frostburg State university</InlineCode>, where I serve as president
-      <br /> of the cyber security club and a D2 athlete on the soccer team. 
+      I'm a Cyber Threat Hunter and an entrepreneur seeking IT & cybersecurity roles in the Dc metro area. I recently graduated with a B.S. in Cybersecurity and Information Assurance from <InlineCode>Frostburg State university</InlineCode>, where I served as president
+      <br /> of the cyber security club and a D2 athlete on the soccer team. I currently hold an active TS/SCI with a comptia Security + certification.
 
     </>
   ),
@@ -82,8 +82,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        I am a senior cyber security student with a passion for threat hunting. I'm currently pursuing a soc analyst position to kick off
-        my professional career as I graduate in may. I currently hold a 3.5 cumulative gpa as a student athlete at Frostburg State University,
+        I am a Cyber Threat hunter and an Entrepeneur that recently graduated from Frostburg State University with a B.S. in Cyber Security and Information Assurance. I'm currently pursuing a soc analyst position to kick off
+        my professional career. I hold an active TS/SCI and a comptia Security +,
         based in Maryland.
 
       </>
@@ -95,14 +95,17 @@ const about = {
     experiences: [
       {
         company: "Frostburg State University",
-        timeframe: "2023 - Present",
-        role: "Computer Technician",
+        timeframe: "2023 - 2025",
+        role: "Esports Computer Technician",
         achievements: [
           <>
-            Configured and maintained a network of multiple computer systems (dual boot systems) for the university e-sports team
+             Maintained and troubleshooted dual-boot Windows systems, ensuring optimal performance and uptime for competitive gaming environments
           </>,
           <>
-            Installed and made sure all the games were kept up to date through admin privileges
+            Configured software environments and applied basic security settings across gaming workstations
+          </>,
+          <>
+          Diagnosed hardware and network issues, supporting compliance with system performance requirements
           </>,
         ],
         images: []
